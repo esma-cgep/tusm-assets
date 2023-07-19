@@ -1,0 +1,30 @@
+{
+  "elc-capacity": {
+    "ELC_CAPACITY": {
+      "aggregation": "sum",
+      "defaultUnit": "GW",
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-new-capacity": {
+    "ELC_NEW_CAPACITY": {
+      "aggregation": "sum",
+      "defaultUnit": "GW",
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-generation": {
+    "ELC_Generation": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption": {
+    "ELC_Generation_Input": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  }
+}
