@@ -1,22 +1,15 @@
 {
   "elc-capacity": {
-    "ELC_CAPACITY": {
+    "ELC_Capacity": {
       "aggregation": "sum",
       "defaultUnit": "GW",
       "keepDimensions": "Processset"
     }
   },
-  "elc-new-capacity": {
-    "ELC_NEW_CAPACITY": {
+  "elc-capacity-new": {
+    "ELC_Capacity_New": {
       "aggregation": "sum",
       "defaultUnit": "GW",
-      "keepDimensions": "Processset"
-    }
-  },
-  "elc-generation": {
-    "ELC_Generation": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
@@ -25,6 +18,143 @@
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
+    }
+  },
+  "elc-generation": {
+    "ELC_Generation_Output": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-generation-type": {
+    "ELC_Generation_Output_Type": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-price-electricity-max": {
+    "ELC_Prices_ELCC": {
+      "aggregation": "max",
+      "defaultUnit": "MEUR/PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
+  "elc-price-electricity-mean": {
+    "ELC_Prices_ELCC": {
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
+  "elc-price-electricity-min": {
+    "ELC_Prices_ELCC": {
+      "aggregation": "min",
+      "defaultUnit": "MEUR/PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
+  "sys-costs-annual": {
+    "SYS_Costs_Annual": {
+      "aggregation": "sum",
+      "defaultUnit": "MEUR",
+      "keepDimensions": "Attribute"
+    }
+  },
+  "sys-costs-lumpy": {
+    "SYS_Costs_Lumpy": {
+      "aggregation": "sum",
+      "defaultUnit": "MEUR",
+      "keepDimensions": "Userconstraint"
+    }
+  },
+  "sys-emissions-ch4": {
+    "SYS_Emissions_CH4": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-n2o": {
+    "SYS_Emissions_N2O": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-nox": {
+    "SYS_Emissions_NOX": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-pm10": {
+    "SYS_Emissions_PM10": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-pm25": {
+    "SYS_Emissions_PM25": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-so2": {
+    "SYS_Emissions_SO2": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-emissions-co2": {
+    "SYS_Emissions_CO2": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-nrg-export": {
+    "SYS_Energy_Export": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-nrg-import": {
+    "SYS_Energy_Import": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-nrg-indigenous-supply": {
+    "SYS_Energy_Mining": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset"
+    }
+  },
+  "sys-primary-energy-demand": {
+    "SYS_Energy_Import": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset"
+    },
+    "SYS_Energy_Mining": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset"
+    },
+    "SYS_Energy_Export": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   }
 }

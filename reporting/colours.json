@@ -1,4 +1,13 @@
 {
+  "Cost_Act": "#78B794",
+  "Cost_Flo": "#B639AD",
+  "Cost_Fom": "#D02FAA",
+  "Cost_Inv": "#32A433",
+  "Cost_ire": "#274177",
+  "ELCC": "#587BF9",
+  "ELE": "#9147E1",
+  "ENV_CO2_ELC": "#92B45C",
+  "LUMPINV": "#6BAD60",
   "PRC_ELC_BSL": "#1BD5D4",
   "PRC_ELC_COA": "#080808",
   "PRC_ELC_GAS": "#C0C0C0",
@@ -9,5 +18,6 @@
   "PRC_ELC_SPV": "#EABE3B",
   "PRC_ELC_STH": "#F7F4BF",
   "PRC_ELC_WNF": "#19ABDE",
-  "PRC_ELC_WNO": "#1AC9E6"
+  "PRC_ELC_WNO": "#1AC9E6",
+  "STG": "#83BE87"
 }
