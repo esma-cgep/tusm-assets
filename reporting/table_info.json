@@ -37,35 +37,35 @@
   "elc-price-electricity-max": {
     "ELC_Prices_ELCC": {
       "aggregation": "max",
-      "defaultUnit": "MEUR/PJ",
+      "defaultUnit": "MUSD/PJ",
       "keepDimensions": "Commodity"
     }
   },
   "elc-price-electricity-mean": {
     "ELC_Prices_ELCC": {
       "aggregation": "mean",
-      "defaultUnit": "MEUR/PJ",
+      "defaultUnit": "MUSD/PJ",
       "keepDimensions": "Commodity"
     }
   },
   "elc-price-electricity-min": {
     "ELC_Prices_ELCC": {
       "aggregation": "min",
-      "defaultUnit": "MEUR/PJ",
+      "defaultUnit": "MUSD/PJ",
       "keepDimensions": "Commodity"
     }
   },
   "sys-costs-annual": {
     "SYS_Costs_Annual": {
       "aggregation": "sum",
-      "defaultUnit": "MEUR",
+      "defaultUnit": "MUSD",
       "keepDimensions": "Attribute"
     }
   },
   "sys-costs-lumpy": {
     "SYS_Costs_Lumpy": {
       "aggregation": "sum",
-      "defaultUnit": "MEUR",
+      "defaultUnit": "MUSD",
       "keepDimensions": "Userconstraint"
     }
   },
