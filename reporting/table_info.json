@@ -20,6 +20,316 @@
       "keepDimensions": "Processset"
     }
   },
+  "elc-consumption-cerium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Ce"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-cobalt": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Co"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-chromium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Cr"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-cadmium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Cd"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-copper": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Cu"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-dysprosium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Dy"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-erbium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Er"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-europium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Eu"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-galium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Ga"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-Gadolinium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Gd"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-holmium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Ho"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-indium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["In"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-lanthanum": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["La"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-lutetium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Lu"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-manganese": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Mn"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-molybdenum": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Mo"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-neodymium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Nd"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-nickel": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Ni"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-oth": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Ot"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-promethium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Pm"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-praseodymium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Pr"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-rare-earth": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["REE"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-scandium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Sc"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-silicon": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Si"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-samarium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Sm"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-terbium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Tb"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-tellurium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Te"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-thulium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Tm"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-yttrium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Y"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-ytterbium": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Yb"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
+  "elc-consumption-zinc": {
+    "ELC_Generation_Input_MAT": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["Zn"]
+      },
+      "keepDimensions": "Processset"
+    }
+  },
   "elc-generation": {
     "ELC_Generation_Output": {
       "aggregation": "sum",
