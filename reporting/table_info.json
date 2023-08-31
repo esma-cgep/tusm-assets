@@ -432,38 +432,38 @@
     "SYS_Energy_Export": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodity"
     }
   },
   "sys-nrg-import": {
     "SYS_Energy_Import": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodity"
     }
   },
   "sys-nrg-indigenous-supply": {
     "SYS_Energy_Mining": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodity"
     }
   },
   "sys-primary-energy-demand": {
     "SYS_Energy_Import": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodity"
     },
     "SYS_Energy_Mining": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodity"
     },
     "SYS_Energy_Export": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset",
+      "keepDimensions": "Commodity",
       "reverseSign": true
     }
   }

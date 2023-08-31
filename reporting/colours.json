@@ -1,4 +1,6 @@
 {
+  "BSL": "#1BD5D4",
+  "COA": "#080808",
   "Cost_Act": "#78B794",
   "Cost_Flo": "#B639AD",
   "Cost_Flox": "#4E3F6C",
@@ -8,7 +10,12 @@
   "ELCC": "#587BF9",
   "ELE": "#9147E1",
   "ENV_CO2_ELC": "#92B45C",
+  "GEO": "#E97369",
   "LUMPINV": "#6BAD60",
+  "MSW": "#142458",
+  "NGA": "#C0C0C0",
+  "NRG": "#91FDE1",
+  "NUC": "#7D39C0",
   "PRC_ELC_BSL": "#1BD5D4",
   "PRC_ELC_COA": "#080808",
   "PRC_ELC_GAS": "#C0C0C0",
@@ -20,5 +27,11 @@
   "PRC_ELC_STH": "#F7F4BF",
   "PRC_ELC_WNF": "#19ABDE",
   "PRC_ELC_WNO": "#1AC9E6",
-  "STG": "#83BE87"
+  "RFO": "#5F5F5F",
+  "SPV": "#EABE3B",
+  "STG": "#83BE87",
+  "STH": "#F7F4BF",
+  "WAT": "#186BA1",
+  "WNF": "#19ABDE",
+  "WNO": "#1AC9E6"
 }
