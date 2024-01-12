@@ -365,6 +365,20 @@
       "keepDimensions": "Commodity"
     }
   },
+  "ind-iis-cap": {
+	"IND_Capacity-IIS": {
+	  "aggregation": "sum",
+	  "defaultUnit": "Mt/a",
+	  "keepDimensions": "Process"
+	}
+  },
+  "ind-iis-prod": {
+	"IND_Production-IIS": {
+	  "aggregation": "sum",
+	  "defaultUnit": "Mt",
+	  "keepDimensions": "Process"
+	}
+  },
   "sys-costs-annual": {
     "SYS_Costs_Annual": {
       "aggregation": "sum",
