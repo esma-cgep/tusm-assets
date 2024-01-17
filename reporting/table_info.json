@@ -372,6 +372,16 @@
 	  "keepDimensions": "Process"
 	}
   },
+  "ind-iis-emi-co2": {
+	"IND_Emissions-IIS": {
+	  "aggregation": "sum",
+	  "defaultUnit": "kt",
+	  "filter": {
+        "Commodity": ["INDCO2"]
+      },
+	  "keepDimensions": "Process"
+	}
+  },
   "ind-iis-prod": {
 	"IND_Production-IIS": {
 	  "aggregation": "sum",
