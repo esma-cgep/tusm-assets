@@ -1,494 +1,615 @@
 {
-  "elc-capacity": {
-    "ELC_Capacity": {
+  "elc-capacity": [
+    {
       "aggregation": "sum",
       "defaultUnit": "GW",
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Capacity"
     }
-  },
-  "elc-capacity-new": {
-    "ELC_Capacity_New": {
+  ],
+  "elc-capacity-new": [
+    {
       "aggregation": "sum",
       "defaultUnit": "GW",
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Capacity_New"
     }
-  },
-  "elc-consumption": {
-    "ELC_Generation_Input": {
+  ],
+  "elc-consumption": [
+    {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input"
     }
-  },
-  "elc-consumption-cerium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-Gadolinium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Ce"]
+      "filter": {
+        "Commodity": [
+          "Gd"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-cobalt": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-cadmium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Co"]
+      "filter": {
+        "Commodity": [
+          "Cd"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-chromium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-cerium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Cr"]
+      "filter": {
+        "Commodity": [
+          "Ce"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-cadmium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-chromium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Cd"]
+      "filter": {
+        "Commodity": [
+          "Cr"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-copper": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-cobalt": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Cu"]
+      "filter": {
+        "Commodity": [
+          "Co"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-dysprosium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-copper": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Dy"]
+      "filter": {
+        "Commodity": [
+          "Cu"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-erbium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-dysprosium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Er"]
+      "filter": {
+        "Commodity": [
+          "Dy"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-europium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-erbium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Eu"]
+      "filter": {
+        "Commodity": [
+          "Er"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-galium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-europium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Ga"]
+      "filter": {
+        "Commodity": [
+          "Eu"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-Gadolinium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-galium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Gd"]
+      "filter": {
+        "Commodity": [
+          "Ga"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-holmium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-holmium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Ho"]
+      "filter": {
+        "Commodity": [
+          "Ho"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-indium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-indium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["In"]
+      "filter": {
+        "Commodity": [
+          "In"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-lanthanum": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-lanthanum": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["La"]
+      "filter": {
+        "Commodity": [
+          "La"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-lutetium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-lutetium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Lu"]
+      "filter": {
+        "Commodity": [
+          "Lu"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-manganese": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-manganese": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Mn"]
+      "filter": {
+        "Commodity": [
+          "Mn"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-molybdenum": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-molybdenum": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Mo"]
+      "filter": {
+        "Commodity": [
+          "Mo"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-neodymium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-neodymium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Nd"]
+      "filter": {
+        "Commodity": [
+          "Nd"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-nickel": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-nickel": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Ni"]
+      "filter": {
+        "Commodity": [
+          "Ni"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-oth": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-oth": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Ot"]
+      "filter": {
+        "Commodity": [
+          "Ot"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-promethium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-praseodymium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Pm"]
+      "filter": {
+        "Commodity": [
+          "Pr"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-praseodymium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-promethium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Pr"]
+      "filter": {
+        "Commodity": [
+          "Pm"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-rare-earth": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-rare-earth": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["REE"]
+      "filter": {
+        "Commodity": [
+          "REE"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-scandium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-samarium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Sc"]
+      "filter": {
+        "Commodity": [
+          "Sm"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-silicon": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-scandium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Si"]
+      "filter": {
+        "Commodity": [
+          "Sc"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-samarium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-silicon": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Sm"]
+      "filter": {
+        "Commodity": [
+          "Si"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-terbium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-tellurium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Tb"]
+      "filter": {
+        "Commodity": [
+          "Te"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-tellurium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-terbium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Te"]
+      "filter": {
+        "Commodity": [
+          "Tb"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-thulium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-thulium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Tm"]
+      "filter": {
+        "Commodity": [
+          "Tm"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-yttrium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-ytterbium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Y"]
+      "filter": {
+        "Commodity": [
+          "Yb"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-ytterbium": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-yttrium": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Yb"]
+      "filter": {
+        "Commodity": [
+          "Y"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-consumption-zinc": {
-    "ELC_Generation_Input_MAT": {
+  ],
+  "elc-consumption-zinc": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["Zn"]
+      "filter": {
+        "Commodity": [
+          "Zn"
+        ]
       },
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Input_MAT"
     }
-  },
-  "elc-generation": {
-    "ELC_Generation_Output": {
+  ],
+  "elc-generation": [
+    {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Output"
     }
-  },
-  "elc-generation-type": {
-    "ELC_Generation_Output_Type": {
+  ],
+  "elc-generation-type": [
+    {
       "aggregation": "sum",
       "defaultUnit": "PJ",
-      "keepDimensions": "Processset"
+      "keepDimensions": "Processset",
+      "name": "ELC_Generation_Output_Type"
     }
-  },
-  "elc-price-electricity-max": {
-    "ELC_Prices_ELCC": {
+  ],
+  "elc-price-electricity-max": [
+    {
       "aggregation": "max",
       "defaultUnit": "MUSD/PJ",
-      "keepDimensions": "Commodity"
+      "keepDimensions": "Commodity",
+      "name": "ELC_Prices_ELCC"
     }
-  },
-  "elc-price-electricity-mean": {
-    "ELC_Prices_ELCC": {
+  ],
+  "elc-price-electricity-mean": [
+    {
       "aggregation": "mean",
       "defaultUnit": "MUSD/PJ",
-      "keepDimensions": "Commodity"
+      "keepDimensions": "Commodity",
+      "name": "ELC_Prices_ELCC"
     }
-  },
-  "elc-price-electricity-min": {
-    "ELC_Prices_ELCC": {
+  ],
+  "elc-price-electricity-min": [
+    {
       "aggregation": "min",
       "defaultUnit": "MUSD/PJ",
-      "keepDimensions": "Commodity"
+      "keepDimensions": "Commodity",
+      "name": "ELC_Prices_ELCC"
     }
-  },
-  "ind-iis-cap": {
-	"IND_Capacity-IIS": {
-	  "aggregation": "sum",
-	  "defaultUnit": "Mt/a",
-	  "keepDimensions": "Process"
-	}
-  },
-  "ind-iis-emi-co2": {
-	"IND_Emissions-IIS": {
-	  "aggregation": "sum",
-	  "defaultUnit": "kt",
-	  "filter": {
-        "Commodity": ["INDCO2"]
+  ],
+  "ind-iis-cap": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "Mt/a",
+      "keepDimensions": "Process",
+      "name": "IND_Capacity-IIS"
+    }
+  ],
+  "ind-iis-emi-co2": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "filter": {
+        "Commodity": [
+          "INDCO2"
+        ]
       },
-	  "keepDimensions": "Process"
-	}
-  },
-  "ind-iis-prod": {
-	"IND_Production-IIS": {
-	  "aggregation": "sum",
-	  "defaultUnit": "Mt",
-	  "keepDimensions": "Process"
-	}
-  },
-  "sys-costs-annual": {
-    "SYS_Costs_Annual": {
+      "keepDimensions": "Process",
+      "name": "IND_Emissions-IIS"
+    }
+  ],
+  "ind-iis-prod": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "Mt",
+      "keepDimensions": "Process",
+      "name": "IND_Production-IIS"
+    }
+  ],
+  "sys-costs-annual": [
+    {
       "aggregation": "sum",
       "defaultUnit": "MUSD",
-      "keepDimensions": "Attribute"
+      "keepDimensions": "Attribute",
+      "name": "SYS_Costs_Annual"
     }
-  },
-  "sys-costs-lumpy": {
-    "SYS_Costs_Lumpy": {
+  ],
+  "sys-costs-lumpy": [
+    {
       "aggregation": "sum",
       "defaultUnit": "MUSD",
-      "keepDimensions": "Userconstraint"
+      "keepDimensions": "Userconstraint",
+      "name": "SYS_Costs_Lumpy"
     }
-  },
-  "sys-emissions-ch4": {
-    "SYS_Emissions_CH4": {
+  ],
+  "sys-emissions-ch4": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_CH4"
     }
-  },
-  "sys-emissions-n2o": {
-    "SYS_Emissions_N2O": {
+  ],
+  "sys-emissions-co2": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_CO2"
     }
-  },
-  "sys-emissions-nox": {
-    "SYS_Emissions_NOX": {
+  ],
+  "sys-emissions-n2o": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_N2O"
     }
-  },
-  "sys-emissions-pm10": {
-    "SYS_Emissions_PM10": {
+  ],
+  "sys-emissions-nox": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_NOX"
     }
-  },
-  "sys-emissions-pm25": {
-    "SYS_Emissions_PM25": {
+  ],
+  "sys-emissions-pm10": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_PM10"
     }
-  },
-  "sys-emissions-so2": {
-    "SYS_Emissions_SO2": {
+  ],
+  "sys-emissions-pm25": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_PM25"
     }
-  },
-  "sys-emissions-co2": {
-    "SYS_Emissions_CO2": {
+  ],
+  "sys-emissions-so2": [
+    {
       "aggregation": "sum",
       "defaultUnit": "kt",
-      "keepDimensions": "Commodityset"
+      "keepDimensions": "Commodityset",
+      "name": "SYS_Emissions_SO2"
     }
-  },
-  "sys-nrg-export": {
-    "SYS_Energy_Export": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "sys-nrg-import": {
-    "SYS_Energy_Import": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "sys-nrg-indigenous-supply": {
-    "SYS_Energy_Mining": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "sys-primary-energy-demand": {
-    "SYS_Energy_Import": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    },
-    "SYS_Energy_Mining": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    },
-    "SYS_Energy_Export": {
+  ],
+  "sys-nrg-export": [
+    {
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Export"
+    }
+  ],
+  "sys-nrg-import": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Import"
+    }
+  ],
+  "sys-nrg-indigenous-supply": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Mining"
+    }
+  ],
+  "sys-primary-energy-demand": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Import"
+    },
+    {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Mining"
+    },
+    {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity",
+      "name": "SYS_Energy_Export",
       "reverseSign": true
     }
-  }
+  ]
 }
