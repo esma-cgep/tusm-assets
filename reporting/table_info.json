@@ -474,6 +474,14 @@
       "name": "IND_Capacity-IIS"
     }
   ],
+  "ind-iis-cap-new": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "Mt/a",
+      "keepDimensions": "Process",
+      "name": "IND_Capacity_New-IIS"
+    }
+  ],
   "ind-iis-emi-co2": [
     {
       "aggregation": "sum",
@@ -485,6 +493,22 @@
       },
       "keepDimensions": "Process",
       "name": "IND_Emissions-IIS"
+    }
+  ],
+  "ind-iis-imp-net": [
+    {
+      "aggregation": "sum",
+      "defaultUnit": "Mt",
+      "keepDimensions": "Process",
+      "name": "IND_Import-IIS"
+    }
+  ],
+  "ind-iis-price": [
+    {
+      "aggregation": "mean",
+      "defaultUnit": "USD/t",
+      "keepDimensions": "Commodity",
+      "name": "IND_Prices-IIS"
     }
   ],
   "ind-iis-prod": [
